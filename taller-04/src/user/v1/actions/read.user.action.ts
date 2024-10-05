@@ -1,4 +1,4 @@
-import { UserModel, UserType } from './user.model';
+import { UserModel, UserType } from '../models/user.model';
 
 // DECLARE ACTION FUNCTION
 async function readUsersAction(): Promise<UserType[]> {
